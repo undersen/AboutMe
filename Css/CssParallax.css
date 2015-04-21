@@ -38,52 +38,24 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("../Media/background.jpeg");
+  background-image: url("../Media/background1.jpg");
 }
 section.module.parallax-2 {
-  background-image: url("../Media/background1.jpeg");
+  background-image: url("../Media/background2.jpg");
 }
 section.module.parallax-3 {
   background-image: url("../Media/background3.jpg");
 }
 section.module.parallax-4 {
-  background-image: url("../Media/backgroundFinal.jpg");
+  background-image: url("../Media/background4.jpg");
 }
 
-/*@media all and (min-width: 600px) {
-  section.module h2 {
-    font-size: 42px;
-  }
-  section.module p {
-    font-size: 20px;
-  }
-  section.module.parallax h1 {
-    font-size: 140px;
-  }
-}*/
+
 
 
 section.module.parallax h1 {
     font-size: 140px;
   }
-
-@media all and (max-width: 1024px) {
-  section.module.parallax h1 {
-    font-size: 140px;
-  }
-  #LoQueMeGusta { 
-  font-weight:100; 
-  background: rgba(0,0,0,0.3);
-  color: white;
-  padding: 2rem;
-  width: 33%;
-  margin:2rem;
-  float: right;
-  font-size: 13px;
-  position:relative;
-}
-}
-
 
 
 @media all and (max-width: 600px) {
@@ -94,11 +66,14 @@ section.module.parallax h1 {
   font-weight:100; 
   color: white;
   font-size: 13px;
-  
-}
 }
 
+section.module.parallax {
+  height: 400px;
+  background-position: 50% 50%;
+}
 
+}
 
 @media all and (max-width: 400px) {
   section.module.parallax h1 {
@@ -110,13 +85,15 @@ section.module.parallax h1 {
 }
 }
 
-@media all and (min-width: 800px) {
+
+
+@media all and (max-width: 801px) {
   section.module.parallax h1 {
-    font-size: 25px;
+    font-size: 90px;
   }
   #LoQueMeGusta
   {
-    display: :none;
+    display:none;
   }
   
 
